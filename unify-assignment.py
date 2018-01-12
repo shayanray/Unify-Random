@@ -105,6 +105,7 @@ def generateRGBBitMap():
 
     print(Z)
     imshow(Z, cmap=get_cmap("Spectral"), interpolation='nearest') # convert to image
+    savefig("Q1.png")
     show()
 
 
@@ -124,6 +125,7 @@ def generateRGBBitMapSampleData():
 
     print(Z)
     imshow(Z, cmap=get_cmap("Spectral"), interpolation='nearest')
+    savefig("Q1.png")
     show()
 
 
