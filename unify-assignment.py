@@ -128,6 +128,6 @@ def generateRGBBitMapSampleData():
 
 
 if __name__ == "__main__":
-    #generateRGBBitMap()    # random.org call
-    generateRGBBitMapSampleData() # local testing
+    generateRGBBitMap()    # random.org call (uncomment for actual run)
+    #generateRGBBitMapSampleData() # local testing (uncomment for local test run)
 
