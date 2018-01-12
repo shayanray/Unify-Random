@@ -80,8 +80,8 @@ def generator(url):
         # fire request
         data = urllib.request.urlopen(request).read()
     except urllib.request.HTTPError as err:
-        print("HTTP ERROR CODE >> ", err.code)
-        print("HTTP ERROR MSG >> ", err.msg)
+        print("HTTP ERROR >>", err.code, err.msg)
+        print("DETAILED MSG ",err.read())
 
     output = parseData(data)
     print("output >> ", output)
@@ -125,6 +125,7 @@ def generateRGBBitMapSampleData():
     print(Z)
     imshow(Z, cmap=get_cmap("Spectral"), interpolation='nearest')
     show()
+
 
 
 if __name__ == "__main__":
