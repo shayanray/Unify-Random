@@ -1,7 +1,6 @@
 import re
 import urllib.request
 import numpy as np
-import time
 from pylab import imshow, show, get_cmap, savefig
 from numpy import random
 
