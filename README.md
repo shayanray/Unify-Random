@@ -10,7 +10,19 @@ The following has been accomplished as part of this assignment,
 
 - An RGB bitmap picture of 128x128 pixels. (70 points)
 
+Dependencies:
+--------------
+Matplotlib, numpy, regex, urllib
 
 STEPS to Execute:
 --------------------
 python unify-assignment.py
+
+Output:
+---------
+Popup opens with image generated.
+Q1.png is saved in the current folder.
+
+Testing:
+----------
+Uncomment generateRGBBitMapSampleData() to test locally without calling Random.org
