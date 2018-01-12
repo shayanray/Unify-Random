@@ -100,7 +100,7 @@ def generateRGBBitMap():
     arr2 = generator(integerGenURL6384)
     arr = arr1 + arr2 # merged into 1-D array
 
-    Z = np.array(arr)#random.random((5, 5))  # Test data
+    Z = np.array(arr)
     Z = Z.reshape(128,128)          # reshape into 128X128 numpy matrix
 
     print(Z)
@@ -119,7 +119,7 @@ def generateRGBBitMapSampleData():
     # try with sample test data
     arr = testDataGen()
 
-    Z = np.array(arr)# Test data
+    Z = np.array(arr)# random.random((128, 128))  # Test data
     Z = Z.reshape(128,128)
 
     print(Z)
